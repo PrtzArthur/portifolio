@@ -1,0 +1,48 @@
+/*==============================================================================
+                                GERAL
+================================================================================
+*/
+html {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: calc(12px + 0.390625vw);
+}
+/*==============================================================================
+                                HEADER
+================================================================================
+*/
+header nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+header nav ul li {
+    text-align: center;
+    margin: 20px 0 20px 0 ;
+}
+/*===============================================================================
+                                BANNER
+=================================================================================
+*/
+section.banner {
+    text-align: center;
+    margin: 0vw 5vw 0vw 5vw;
+}
+section.banner img {
+    width: 25%;
+}
+section.banner h2 {
+    font-weight: bold;
+    font-size: 1.8rem;
+    margin: 20px 0 20px 0;
+}
+section.banner p {
+    margin: 20px 0 20px 0;
+}
+section.banner p button {
+    background-color: red;
+    color: white;
+    border: none;
+    font-size: 1.5rem;
+    padding: 10px 20px 10px 20px;
+    border-radius: 5px ;
+}
