@@ -6,6 +6,10 @@ html {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: calc(12px + 0.390625vw);
 }
+section h2{
+    text-align: center;
+    font-size: 1.15rem;
+}
 /*==============================================================================
                                 HEADER
 ================================================================================
@@ -45,4 +49,58 @@ section.banner p button {
     font-size: 1.5rem;
     padding: 10px 20px 10px 20px;
     border-radius: 5px ;
+}
+/*===============================================================================
+                                POSTS
+=================================================================================
+*/
+section.posts{
+    background-color: #edf7fa; 
+    padding: 20px 10px 20px 10px;
+}
+
+section.posts ul li {
+    background-color: white;
+    margin: 20px 0px 20px 0px;
+    padding: 20px 10px 20px 10px;
+
+}
+section.posts ul li h3{
+    font-weight:bold;
+    font-size: 1.20rem;
+}
+section.posts ul li p{
+    font-size: 1.1rem;
+    margin: 15px 0px 15px 0px;
+    line-height: 1.5rem;
+}
+/*===============================================================================
+                                WORKS
+=================================================================================
+*/
+section.works{
+    padding: 20px 10px 20px 10px;
+}
+section.works ul li{
+    margin: 20px 0px 20px 0px;
+}
+
+section.works ul li h3 {
+    font-size: 1.6rem;
+    font-weight: bold;
+    margin: 20px 10px 20px 10px;
+}
+section.works ul li p{
+    font-size: 1.25rem;
+    padding: 5px 10px 5px 10px;
+}
+section.works ul li p.info{
+    color: #8695a4;
+
+}
+section.works ul li p span{
+    background-color: #142850;
+    color:white;
+    padding: 5px 10px 5px 10px;
+    border-radius: 20px;
 }
