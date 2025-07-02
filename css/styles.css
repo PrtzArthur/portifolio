@@ -6,10 +6,12 @@ html {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: calc(12px + 0.390625vw);
 }
-section h2{
+
+section h2 {
     text-align: center;
     font-size: 1.15rem;
 }
+
 /*==============================================================================
                                 HEADER
 ================================================================================
@@ -19,10 +21,12 @@ header nav ul li a {
     text-decoration: none;
     font-weight: bold;
 }
+
 header nav ul li {
     text-align: center;
-    margin: 20px 0 20px 0 ;
+    margin: 20px 0 20px 0;
 }
+
 /*===============================================================================
                                 BANNER
 =================================================================================
@@ -31,31 +35,36 @@ section.banner {
     text-align: center;
     margin: 0vw 5vw 0vw 5vw;
 }
+
 section.banner img {
     width: 25%;
 }
+
 section.banner h2 {
     font-weight: bold;
     font-size: 1.8rem;
     margin: 20px 0 20px 0;
 }
+
 section.banner p {
     margin: 20px 0 20px 0;
 }
+
 section.banner p button {
     background-color: red;
     color: white;
     border: none;
     font-size: 1.5rem;
     padding: 10px 20px 10px 20px;
-    border-radius: 5px ;
+    border-radius: 5px;
 }
+
 /*===============================================================================
                                 POSTS
 =================================================================================
 */
-section.posts{
-    background-color: #edf7fa; 
+section.posts {
+    background-color: #edf7fa;
     padding: 20px 10px 20px 10px;
 }
 
@@ -65,23 +74,27 @@ section.posts ul li {
     padding: 20px 10px 20px 10px;
 
 }
-section.posts ul li h3{
-    font-weight:bold;
+
+section.posts ul li h3 {
+    font-weight: bold;
     font-size: 1.20rem;
 }
-section.posts ul li p{
+
+section.posts ul li p {
     font-size: 1.1rem;
     margin: 15px 0px 15px 0px;
     line-height: 1.5rem;
 }
+
 /*===============================================================================
                                 WORKS
 =================================================================================
 */
-section.works{
+section.works {
     padding: 20px 10px 20px 10px;
 }
-section.works ul li{
+
+section.works ul li {
     margin: 20px 0px 20px 0px;
 }
 
@@ -90,17 +103,71 @@ section.works ul li h3 {
     font-weight: bold;
     margin: 20px 10px 20px 10px;
 }
-section.works ul li p{
+
+section.works ul li p {
     font-size: 1.25rem;
     padding: 5px 10px 5px 10px;
 }
-section.works ul li p.info{
+
+section.works ul li p.info {
     color: #8695a4;
 
 }
-section.works ul li p span{
+
+section.works ul li p span {
     background-color: #142850;
-    color:white;
+    color: white;
     padding: 5px 10px 5px 10px;
     border-radius: 20px;
+}
+
+/*=============================================================================
+==
+                                FOOTER
+=================================================================================
+*/
+
+footer {
+    text-align: center;
+    padding: 10vw 0px 10vw 0px;
+}
+
+footer nav p a {
+    color: #21243d;
+    font-size: 1.8rem;
+    margin: 0px 5px 0px 5px;
+}
+
+/* CSS media query dentro de um stylesheet */
+@media (min-width: 900px) {
+
+    header {
+        padding: 2vw 2vw 2vw 2vw;
+    }
+
+    header nav ul {
+        display: flex;
+        justify-content: right;
+    }
+
+    header nav ul li {
+        margin: 0px 20px 0px 20px;
+    }
+    
+    section.banner {
+        display: flex;
+        flex-direction: row-reverse
+        ;
+    }
+
+    section.banner div.texto{
+        width: 50%;
+        text-align: left;
+        padding: 0vw 10vw 0vw 0vw ;
+    }
+    
+    section.banner img{
+            width: 100%;
+    }
+
 }
