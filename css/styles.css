@@ -34,6 +34,7 @@ header nav ul li {
 section.banner {
     text-align: center;
     margin: 0vw 5vw 0vw 5vw;
+    padding: 0 10vw 0 10vw;
 }
 
 section.banner img {
@@ -59,10 +60,28 @@ section.banner p button {
     border-radius: 5px;
 }
 
+
+    section.banner h2{
+        text-align: left;
+    }
+
+    section.banner div.texto{
+        /*width: 50%;*/
+        text-align: left;
+        padding: 0vw 10vw 0vw 0vw ;
+    }
+    
+    section.banner img{
+            width: 100%;
+    }
+
+
 /*===============================================================================
                                 POSTS
 =================================================================================
 */
+
+
 section.posts {
     background-color: #edf7fa;
     padding: 20px 10px 20px 10px;
@@ -153,21 +172,23 @@ footer nav p a {
     header nav ul li {
         margin: 0px 20px 0px 20px;
     }
+    section.posts ul{
+        display: flex;
+    }
+    section.posts ul li{
+        margin: 0 1vw 0 1vw;
+    }
+    section.banner div.texto{
     
+        text-align: left;
+        flex-direction: row-reverse;
+    }
+    section.works ul{
+        display: flex;
+    }
+        
     section.banner {
         display: flex;
-        flex-direction: row-reverse
-        ;
+        flex-direction: row-reverse;
     }
-
-    section.banner div.texto{
-        width: 50%;
-        text-align: left;
-        padding: 0vw 10vw 0vw 0vw ;
-    }
-    
-    section.banner img{
-            width: 100%;
-    }
-
 }
